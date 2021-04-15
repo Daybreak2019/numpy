@@ -1,14 +1,4 @@
-test_isfileobj
-TestArrayMemoryError.test_pickling
-TestArrayMemoryError.test_str
-TestArrayMemoryError.test__size_to_string
-TestArrayMemoryError.test__total_size
-TestUFuncNoLoopError.test_pickling
-TestABC.test_abstract
-TestABC.test_floats
-TestABC.test_complex
-TestABC.test_int
-TestABC.test_uint
+
 test_array_array
 test_array_impossible_casts[True]
 test_array_impossible_casts[False]
