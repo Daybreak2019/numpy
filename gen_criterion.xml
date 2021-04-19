@@ -1,1597 +1,1007 @@
 <?xml version="1.0" ?>
 <criterions>
   <criterion>
-    <function>numpy.eye</function>
+    <function>eye</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.zeros</function>
+    <function>array</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.array</function>
+    <function>empty</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.dtype</function>
+    <function>ones</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.arange</function>
+    <function>zeros</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.empty</function>
+    <function>arange</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.sqrt</function>
+    <function>dot</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.ones</function>
+    <function>matrix</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.vstack</function>
+    <function>asmatrix</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.squeeze</function>
+    <function>sort</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.dot</function>
+    <function>partition</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.triu</function>
+    <function>nditer</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.tensordot</function>
+    <function>average</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.matrix</function>
+    <function>linspace</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.asmatrix</function>
+    <function>trapz</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.sort</function>
+    <function>apply_along_axis</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.partition</function>
+    <function>bmat</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.inner</function>
+    <function>identity</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.nditer</function>
+    <function>expand_dims</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.multiply</function>
+    <function>ravel</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.average</function>
+    <function>atleast_2d</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.linspace</function>
+    <function>tile</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.trapz</function>
+    <function>get_printoptions</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.ediff1d</function>
+    <function>dtype</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.apply_along_axis</function>
+    <function>log</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.kron</function>
+    <function>ndarray</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.bmat</function>
+    <function>sqrt</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.all</function>
+    <function>diag</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.sum</function>
+    <function>round</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.prod</function>
+    <function>find_common_type</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.max</function>
+    <function>where</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.min</function>
+    <function>reshape</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.allclose</function>
+    <function>add</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.transpose</function>
+    <function>round_</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.any</function>
+    <function>corrcoef</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.identity</function>
+    <function>polyfit</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.ravel</function>
+    <function>subtract</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.may_share_memory</function>
+    <function>datetime64</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.expand_dims</function>
+    <function>str_</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.diagonal</function>
+    <function>frombuffer</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.diag</function>
+    <function>concatenate</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.errstate</function>
+    <function>zeros_like</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.cos</function>
+    <function>timedelta64</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.cosh</function>
+    <function>full</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.sin</function>
+    <function>conjugate</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.sinh</function>
+    <function>float64</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.tan</function>
+    <function>true_divide</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.tanh</function>
+    <function>broadcast_arrays</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.exp</function>
+    <function>empty_like</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.arcsin</function>
+    <function>full_like</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.arccos</function>
+    <function>nested_iters</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.arctan</function>
+    <function>single</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.arctan2</function>
+    <function>double</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.absolute</function>
+    <function>longdouble</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.equal</function>
+    <function>half</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.not_equal</function>
+    <function>issctype</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.less</function>
+    <function>asarray</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.greater</function>
+    <function>int_</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.less_equal</function>
+    <function>load</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.greater_equal</function>
+    <function>bool_</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.conjugate</function>
+    <function>choose</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.concatenate</function>
+    <function>argsort</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.product</function>
+    <function>transpose</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.nonzero</function>
+    <function>argpartition</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.take</function>
+    <function>broadcast_to</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.outer</function>
+    <function>matmul</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.atleast_2d</function>
+    <function>diagonal</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.tile</function>
+    <function>indices</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.shape</function>
+    <function>compress</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.reshape</function>
+    <function>take</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.get_printoptions</function>
+    <function>lexsort</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.abs</function>
+    <function>fromstring</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.zeros_like</function>
+    <function>fromfile</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.finfo</function>
+    <function>stack</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.log</function>
+    <function>vdot</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.log10</function>
+    <function>ascontiguousarray</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.angle</function>
+    <function>vectorize</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.minimum</function>
+    <function>swapaxes</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.maximum</function>
+    <function>inner</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.true_divide</function>
+    <function>result_type</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.mod</function>
+    <function>repeat</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.ndarray</function>
+    <function>min_scalar_type</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.asarray</function>
+    <function>uint32</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.full</function>
+    <function>vstack</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.isnan</function>
+    <function>unicode_</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.iinfo</function>
+    <function>argmax</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.timedelta64</function>
+    <function>argmin</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.argsort</function>
+    <function>resize</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.trace</function>
+    <function>clip</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.bool_</function>
+    <function>count_nonzero</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.round</function>
+    <function>int64</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.find_common_type</function>
+    <function>searchsorted</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.where</function>
+    <function>sum</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.ndim</function>
+    <function>geterr</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.int16</function>
+    <function>geterrobj</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.argwhere</function>
+    <function>promote_types</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.add</function>
+    <function>fromiter</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.round_</function>
+    <function>array_equal</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.median</function>
+    <function>array_equiv</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.isscalar</function>
+    <function>int32</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.cov</function>
+    <function>float32</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.logical_not</function>
+    <function>minimum</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.corrcoef</function>
+    <function>isclose</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.polyfit</function>
+    <function>std</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.isin</function>
+    <function>var</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.invert</function>
+    <function>mean</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.subtract</function>
+    <function>correlate</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.datetime64</function>
+    <function>convolve</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.str_</function>
+    <function>roll</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.frombuffer</function>
+    <function>moveaxis</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.can_cast</function>
+    <function>cross</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.int32</function>
+    <function>outer</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.stack</function>
+    <function>require</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.int8</function>
+    <function>broadcast</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.uint64</function>
+    <function>tensordot</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.logical_xor</function>
+    <function>recarray</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.float64</function>
+    <function>finfo</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.broadcast_arrays</function>
+    <function>chararray</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.negative</function>
+    <function>frompyfunc</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.matmul</function>
+    <function>atleast_1d</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.cumsum</function>
+    <function>setbufsize</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.empty_like</function>
+    <function>object_</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.tri</function>
+    <function>unique</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.logical_or</function>
+    <function>format_parser</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.logical_and</function>
+    <function>ediff1d</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.float32</function>
+    <function>float128</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.full_like</function>
+    <function>array2string</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.broadcast_to</function>
+    <function>maximum</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.issubdtype</function>
+    <function>geterrcall</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.complex128</function>
+    <function>busdaycalendar</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.nested_iters</function>
+    <function>busday_offset</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.single</function>
+    <function>bytes_</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.double</function>
+    <function>string_</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.longdouble</function>
+    <function>conj</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.half</function>
+    <function>power</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.bytes_</function>
+    <function>abs</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.datetime_data</function>
+    <function>fastCopyAndTranspose</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.intp</function>
+    <function>copy</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.maximum_sctype</function>
+    <function>ulonglong</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.sctype2char</function>
+    <function>iinfo</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.issctype</function>
+    <function>floor_divide</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.isnat</function>
+    <function>frexp</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.int_</function>
+    <function>sign</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.ascontiguousarray</function>
+    <function>multiply</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.asfortranarray</function>
+    <function>modf</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.count_nonzero</function>
+    <function>sin</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.load</function>
+    <function>logspace</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.void</function>
+    <function>absolute</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.choose</function>
+    <function>einsum</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.argpartition</function>
+    <function>einsum_path</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.indices</function>
+    <function>uint64</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.modf</function>
+    <function>uint16</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.argmax</function>
+    <function>asfortranarray</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.argmin</function>
+    <function>loadtxt</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.amax</function>
+    <function>fromregex</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.amin</function>
+    <function>genfromtxt</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.compress</function>
+    <function>recfromcsv</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.lexsort</function>
+    <function>recfromtxt</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.fromstring</function>
+    <function>column_stack</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.fromfile</function>
+    <function>squeeze</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.isfinite</function>
+    <function>unpackbits</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.float16</function>
+    <function>packbits</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.mean</function>
+    <function>isposinf</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.var</function>
+    <function>fix</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.std</function>
+    <function>unravel_index</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.vdot</function>
+    <function>ravel_multi_index</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.vectorize</function>
+    <function>ix_</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.swapaxes</function>
+    <function>nonzero</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.result_type</function>
+    <function>poly1d</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.repeat</function>
+    <function>polydiv</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.min_scalar_type</function>
+    <function>real</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.uint32</function>
+    <function>imag</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.unicode_</function>
+    <function>polyval</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.resize</function>
+    <function>poly</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.clip</function>
+    <function>in1d</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.cumproduct</function>
+    <function>min</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.ptp</function>
+    <function>max</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.around</function>
+    <function>prod</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.int64</function>
+    <function>cumsum</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.searchsorted</function>
+    <function>cumprod</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.size</function>
+    <function>insert</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.geterr</function>
+    <function>median</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.geterrobj</function>
+    <function>nanmedian</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.promote_types</function>
+    <function>percentile</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.fromiter</function>
+    <function>nanpercentile</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.alltrue</function>
+    <function>isnan</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.binary_repr</function>
+    <function>diff</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.base_repr</function>
+    <function>cos</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.array_equal</function>
+    <function>i0</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.array_equiv</function>
+    <function>meshgrid</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.isclose</function>
+    <function>bincount</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.correlate</function>
+    <function>interp</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.convolve</function>
+    <function>dstack</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.roll</function>
+    <function>quantile</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.moveaxis</function>
+    <function>sort_complex</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.cross</function>
+    <function>pad</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.require</function>
+    <function>histogram</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.broadcast</function>
+    <function>histogram2d</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.einsum</function>
+    <function>hstack</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.recarray</function>
+    <function>histogramdd</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
   <criterion>
-    <function>numpy.float_</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.chararray</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.frompyfunc</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.atleast_1d</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.setbufsize</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.object_</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.exp2</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.log1p</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.unique</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.format_parser</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.percentile</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.float128</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.array2string</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.array_repr</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.printoptions</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.uint16</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.spacing</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.nextafter</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.divide</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.isinf</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.signbit</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.copysign</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.fmax</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.fmin</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.floor_divide</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.remainder</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.divmod</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.square</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.reciprocal</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.ones_like</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.positive</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.sign</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.frexp</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.ldexp</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.power</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.geterrcall</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.datetime_as_string</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.busday_offset</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.busdaycalendar</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.busday_count</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.is_busday</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.string_</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.conj</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.real</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.shares_memory</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.fastCopyAndTranspose</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.copy</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.ulonglong</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.cbrt</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.log2</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.logaddexp2</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.logaddexp</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.bitwise_or</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.bitwise_and</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.bitwise_xor</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.lcm</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.gcd</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.floor</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.ceil</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.trunc</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.logspace</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.arctanh</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.arcsinh</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.rint</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.einsum_path</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.loadtxt</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.hstack</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.fromregex</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.genfromtxt</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.recfromcsv</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.recfromtxt</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.ndindex</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.column_stack</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.unpackbits</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.packbits</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.isposinf</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.fix</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.unravel_index</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.ravel_multi_index</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.complex64</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.ix_</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.poly1d</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.polydiv</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.polyint</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.ndenumerate</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.asfarray</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.get_include</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.polyder</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.imag</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.sometrue</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.poly</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.isrealobj</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.iscomplexobj</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.roots</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.polyval</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.in1d</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.nanmin</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.cumprod</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.insert</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.nanmedian</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.nanpercentile</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.nanquantile</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.flip</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.diff</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.gradient</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.digitize</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.i0</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.meshgrid</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.bincount</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.interp</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.dstack</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.quantile</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.sort_complex</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.pad</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.histogram</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.histogram2d</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.split</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.histogramdd</function>
-    <return>False</return>
-    <local>11111111</local>
-  </criterion>
-  <criterion>
-    <function>numpy.tril</function>
+    <function>exp</function>
     <return>False</return>
     <local>11111111</local>
   </criterion>
